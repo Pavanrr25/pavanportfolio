@@ -193,12 +193,12 @@ button:hover{
 }
 
 .img {
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 .img img{
-    border-radius: 50%;
-    box-shadow: 10px 10px 0px rgb(65, 171, 212);
+    border-radius: 60%;
+    box-shadow: 10px 10px 0px rgb(227, 144, 49);
     opacity: 0;
     animation: zoomin 1s ease forwards, floatImage 4s ease-in-out infinite ;
     animation-delay: 1.3s, 3s;
@@ -242,3 +242,14 @@ button:hover{
     color: white;
 }
 
+
+/* Target the Education section */
+#education {
+     color: white;
+}
+
+
+/* Target the Project section */
+#project {
+     color: white;
+} 
