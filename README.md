@@ -1,5 +1,5 @@
   # Personal Portfolio
-● https://pavanrr25.github.io/pavanportfolio/ 
+● https://pavanrr25.github.io/PORTFOLIO/
          
   # Features
 
