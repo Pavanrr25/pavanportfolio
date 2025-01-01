@@ -22,6 +22,7 @@ header {
 .logo {
     font-size: 2rem;
     color: rgb(65, 171, 212);
+    margin-left: 5rem;
     opacity: 0;
     animation: moveFromLeft 1s ease forwards;
 }
@@ -435,5 +436,88 @@ footer {
 
     .about-text {
         max-width: 100%;
+    }
+}
+
+
+
+
+/* Experience Section */
+#experience {
+    padding: 5rem 2rem;
+    background-color: #121212;
+    color: #fff;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(65, 171, 212);
+    margin-bottom: 3rem;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #1d1d1d;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-size: 2rem;
+    color: rgb(65, 171, 212);
+    margin-bottom: 1.5rem;
+}
+
+.card-detail {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.card-detail strong {
+    color: rgb(65, 171, 212);
+}
+
+/* Responsive Design for smaller devices */
+@media (max-width: 768px) {
+    .heading {
+        font-size: 2.5rem;
+    }
+
+    .timeline {
+        gap: 1.5rem;
+    }
+
+    .card {
+        padding: 1.5rem;
+    }
+
+    .card-title {
+        font-size: 1.8rem;
+    }
+
+    .card-detail {
+        font-size: 1rem;
     }
 }
