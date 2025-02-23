@@ -273,57 +273,65 @@ button:hover {
     font-size: 1.2rem;
 }
 
-/* Contact Section */
+/* Contact Section Styling */
 .contact-section {
-    padding: 6rem 1rem;
-    background-color: #121212;
+    padding: 60px 20px;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text for contrast */
+    text-align: center;
+  }
+  
+  .contact-section .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff; /* White color for heading */
+  }
+  
+  .contact-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-}
-
-.contact-form {
-    background-color: #1d1d1d;
-    padding: 2rem;
-    border-radius: 8px;
-    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .contact-info {
+    flex: 1;
     max-width: 500px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-}
-
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    padding: 1rem;
-    margin: 1rem 0;
-    background-color: #333;
-    border: 1px solid #555;
-    border-radius: 5px;
-    color: white;
-    font-size: 1rem;
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-    outline: none;
-    border-color: rgb(65, 171, 212);
-}
-
-.contact-form .form-submit-btn {
-    width: 100%;
-    padding: 1rem;
+    text-align: left;
+  }
+  
+  .contact-info ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-info li {
     font-size: 1.2rem;
-    background-color: rgb(65, 171, 212);
-    border: none;
-    color: black;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.contact-form .form-submit-btn:hover {
-    background-color: rgb(44, 118, 148);
-}
+    margin: 10px 0;
+    color: #fff; /* White text color for contact details */
+  }
+  
+  .contact-info a {
+    color: #0077b5; /* LinkedIn and GitHub Link Color */
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  .contact-logo {
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .contact-logo img {
+    width: 100%;
+    height: auto;
+  }
+  
 
 /* Footer */
 footer {
